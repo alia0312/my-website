@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+    <nav class="menu">
+</nav>
+
+    <!-- HEADER TANPA LOGO -->
+    <header class="site-header">
+        <nav class="main-nav">
+            <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="biodata.html">BIODATA </a></li>
+            <li><a href="friends.html">FRIENDS</a></li>
+            <li><a href="education.html">EDUCATION</a></li>
+            <li><a href="portfolio.html">PORTFOLIO</a></li>
+            <li><a href="contact_me.html">CONTACT ME</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- CONTENT CONTAINER -->
+    <div class="body-class">
+        <h1>Contact Me</h1>
+
+        <!-- GOOGLE MAP -->
+        <div class="image-section">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1635.9484395088675!2d102.27233471575205!3d5.756994925551737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31b68fe6f50d123f%3A0xaeb67217536d6442!2sKampus%20UiTM%20Machang!5e1!3m2!1sms!2smy!4v1748138642799!5m2!1sms!2smy" 
+                width="100%" 
+                height="400" 
+                style="border:0; border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.1);" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+
+        <section class="paragraph-section">
+        <div class="form-container">
+    <form> 
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </div>
+
+        <div>
+            <label for="phone">Telephone:</label>
+            <input type="tel" id="phone" name="phone">
+        </div>
+
+        <div>
+            <label for="subject">Subject:</label>
+            <select id="subject" name="subject">
+                <option value="">== Choose Subject ==</option>
+                <option value="question">Question</option>
+                <option value="complaints">Complaints</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5"></textarea>
+        </div>
+
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>

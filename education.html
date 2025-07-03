@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Education</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+  <style>
+    .logo-box {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    .logo-item {
+      border: 2px solid #c2a97d;
+      border-radius: 10px;
+      padding: 15px;
+      text-align: center;
+      background-color: #fffaf0;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      max-width: 200px;
+      transition: transform 0.3s ease;
+    }
+
+    .logo-item:hover {
+      transform: scale(1.05);
+    }
+
+    .logo-item img {
+      width: 100%;
+      height: auto;
+      max-height: 100px;
+      object-fit: contain;
+      margin-bottom: 10px;
+    }
+
+    .logo-item p {
+      font-size: 14px;
+      color: #4b2e2e;
+    }
+
+    table {
+      width: 90%;
+      margin: 30px auto;
+      border-collapse: collapse;
+      font-family: 'Segoe UI', sans-serif;
+      font-size: 16px;
+      background-color: #fff;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+
+    table th, table td {
+      border: 1px solid #ccc;
+      padding: 12px;
+      text-align: center;
+    }
+
+    table th {
+      background-color: #d3b38c;
+      color: #4b2e2e;
+    }
+
+    table tr:nth-child(even) {
+      background-color: #f9f3ea;
+    }
+
+    table tr:hover {
+      background-color: #ffe4b5;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="biodata.html">BIODATA</a></li>
+        <li><a href="friends.html">FRIENDS</a></li>
+        <li><a href="education.html">EDUCATION</a></li>
+        <li><a href="portfolio.html">PORTFOLIO</a></li>
+        <li><a href="contact_me.html">CONTACT ME</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="body-class">
+    <h1 data-aos="fade-down">My Education</h1>
+
+    <div class="icon-education" data-aos="fade-in">
+      <p>Education is the foundation of success. Here's my academic journey:</p>
+    </div>
+
+    <table data-aos="fade-up">
+      <tr style="background-color:#d3b38c;">
+        <th>Bil</th>
+        <th>Institution</th>
+        <th>Certification</th>
+        <th>Year</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>UiTM Machang</td>
+        <td>DIPLOMA</td>
+        <td>2023</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>SMKTM 1</td>
+        <td>SPM</td>
+        <td>2021</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>SKTM 1</td>
+        <td>UPSR</td>
+        <td>2018</td>
+      </tr>
+    </table>
+
+    <div class="logo-box">
+      <div class="logo-item" data-aos="zoom-in">
+        <img src="images/logosktm1.jpeg" alt="Logo SKTM 1">
+        <p>SEKOLAH KEBANGSAAN TANAH MERAH 1</p>
+      </div>
+      <div class="logo-item" data-aos="zoom-in" data-aos-delay="200">
+        <img src="images/logosmktm1.png" alt="Logo SMKTM 1">
+        <p>SEKOLAH MENENGAH KEBANGSAAN TANAH MERAH 1</p>
+      </div>
+      <div class="logo-item" data-aos="zoom-in" data-aos-delay="400">
+        <img src="images/UiTM-Logo.jpg" alt="UiTM Logo">
+        <p>UNIVERSITI TEKNOLOGI MARA CAMPUS MACHANG</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="body-class">
+    <section>
+      <h1 data-aos="fade-up">The phase</h1>
+    </section>
+    <div class="logo-box">
+      <div class="logo-item" data-aos="fade-right">
+        <p><strong>SKTM 1</strong></p>
+        <p>The first step into the world of knowledge. This is where it all begins.</p>
+      </div>
+      <div class="logo-item" data-aos="fade-up">
+        <p><strong>SMKTM 1</strong></p>
+        <p>The teenage phase is full of challenges and beautiful memories. Friends forever.</p>
+      </div>
+      <div class="logo-item" data-aos="fade-left">
+        <p><strong>UiTM</strong></p>
+        <p>A place to build identity and life skills. Dreams begin here.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+</body>
+</html>
